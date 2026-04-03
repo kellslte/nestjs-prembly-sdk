@@ -6,7 +6,6 @@ describe('PortugalDataVerificationService', () => {
   beforeEach(() => {
     service = new PortugalDataVerificationService({
       apiKey: 'test-api-key',
-      appId: 'test-app-id',
       baseUrl: 'https://api.prembly.com',
     });
   });

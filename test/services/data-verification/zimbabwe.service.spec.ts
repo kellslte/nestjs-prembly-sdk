@@ -6,7 +6,6 @@ describe('ZimbabweDataVerificationService', () => {
   beforeEach(() => {
     service = new ZimbabweDataVerificationService({
       apiKey: 'test-api-key',
-      appId: 'test-app-id',
       baseUrl: 'https://api.prembly.com',
     });
   });

@@ -6,7 +6,6 @@ describe('ChinaDataVerificationService', () => {
   beforeEach(() => {
     service = new ChinaDataVerificationService({
       apiKey: 'test-api-key',
-      appId: 'test-app-id',
       baseUrl: 'https://api.prembly.com',
     });
   });

@@ -6,7 +6,6 @@ describe('MaltaDataVerificationService', () => {
   beforeEach(() => {
     service = new MaltaDataVerificationService({
       apiKey: 'test-api-key',
-      appId: 'test-app-id',
       baseUrl: 'https://api.prembly.com',
     });
   });

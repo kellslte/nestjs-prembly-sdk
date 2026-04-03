@@ -6,7 +6,6 @@ describe('MexicoDataVerificationService', () => {
   beforeEach(() => {
     service = new MexicoDataVerificationService({
       apiKey: 'test-api-key',
-      appId: 'test-app-id',
       baseUrl: 'https://api.prembly.com',
     });
   });

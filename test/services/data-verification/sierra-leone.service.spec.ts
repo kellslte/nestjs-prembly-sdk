@@ -6,7 +6,6 @@ describe('SierraLeoneDataVerificationService', () => {
   beforeEach(() => {
     service = new SierraLeoneDataVerificationService({
       apiKey: 'test-api-key',
-      appId: 'test-app-id',
       baseUrl: 'https://api.prembly.com',
     });
   });
