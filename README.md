@@ -26,7 +26,6 @@ import { PremblyModule } from '@scwar/nestjs-prembly-sdk';
   imports: [
     PremblyModule.forRoot({
       apiKey: process.env.PREMBLY_API_KEY!,
-      appId: process.env.PREMBLY_APP_ID!,
     }),
   ],
 })
@@ -56,7 +55,7 @@ export class IdentityService {
 ```ts
 interface PremblyModuleOptions {
   apiKey: string;
-  appId: string;
+  appId?: string;
   baseUrl?: string;
   timeout?: number;
   retries?: number;
@@ -90,6 +89,6 @@ npm test
 
 ## Notes
 
-- The SDK uses Prembly auth headers `x-api-key` and `app-id`.
+- The SDK always sends `x-api-key`. It only sends `app-id` when you provide `appId` in the module options.
 - The large country-specific verification surface is generated from a local endpoint catalog in [`scripts/catalog-source.json`](./scripts/catalog-source.json).
 - Some Prembly reference pages expose inconsistent titles and path shapes; the generator preserves the harvested endpoints and normalizes method names for ergonomic Nest usage.

@@ -21,11 +21,16 @@ export abstract class BaseService {
   }
 
   protected getHeaders(): Record<string, string> {
-    return {
+    const headers: Record<string, string> = {
       'x-api-key': this.options.apiKey,
-      'app-id': this.options.appId,
       'Content-Type': 'application/json',
     };
+
+    if (this.options.appId) {
+      headers['app-id'] = this.options.appId;
+    }
+
+    return headers;
   }
 
   protected getRetryOptions(): RetryOptions {

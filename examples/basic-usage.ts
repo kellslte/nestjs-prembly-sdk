@@ -5,7 +5,6 @@ import { PremblyModule, PremblyService } from '../src';
   imports: [
     PremblyModule.forRoot({
       apiKey: 'your-prembly-api-key',
-      appId: 'your-prembly-app-id',
       baseUrl: 'https://api.prembly.com',
       timeout: 30000,
       retries: 3,

@@ -46,6 +46,6 @@ export class PremblyService {
   }
 
   isConfigured(): boolean {
-    return !!(this.options.apiKey && this.options.appId && this.options.baseUrl);
+    return !!this.options.apiKey;
   }
 }

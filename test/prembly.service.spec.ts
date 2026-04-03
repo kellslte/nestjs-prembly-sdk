@@ -43,4 +43,18 @@ describe('PremblyService', () => {
     expect(service.dataVerification.nigeria).toBeDefined();
     expect(service.dataVerification.kenya).toBeDefined();
   });
+
+  it('should report configured when only apiKey is provided', async () => {
+    const module: TestingModule = await Test.createTestingModule({
+      imports: [
+        PremblyModule.forRoot({
+          apiKey: 'test-api-key',
+        }),
+      ],
+    }).compile();
+
+    const prembly = module.get<PremblyService>(PremblyService);
+
+    expect(prembly.isConfigured()).toBe(true);
+  });
 });

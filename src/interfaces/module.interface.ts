@@ -5,9 +5,9 @@ export interface PremblyModuleOptions {
   apiKey: string;
 
   /**
-   * Prembly app ID sent as app-id.
+   * Optional Prembly app ID sent as app-id when required by an endpoint.
    */
-  appId: string;
+  appId?: string;
 
   /**
    * Prembly API base URL.

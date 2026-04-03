@@ -57,6 +57,18 @@ describe('BaseService', () => {
     });
   });
 
+  it('should omit the app-id header when appId is not configured', () => {
+    const serviceWithoutAppId = new TestService({
+      apiKey: 'test-api-key',
+      baseUrl: 'https://api.prembly.com',
+    });
+
+    expect(serviceWithoutAppId['getHeaders']()).toEqual({
+      'x-api-key': 'test-api-key',
+      'Content-Type': 'application/json',
+    });
+  });
+
   it('should build a GET request with query params', async () => {
     mockHttpClient.request.mockResolvedValue({
       status: 200,
@@ -126,6 +138,40 @@ describe('BaseService', () => {
         body: payload,
       }),
       expect.any(Object),
+    );
+  });
+
+  it('should build requests without an app-id header when appId is absent', async () => {
+    const serviceWithoutAppId = new TestService({
+      apiKey: 'test-api-key',
+      baseUrl: 'https://api.prembly.com',
+    });
+    const serviceHttpClient = serviceWithoutAppId['httpClient'] as jest.Mocked<HttpClient>;
+
+    serviceHttpClient.request.mockResolvedValue({
+      status: 200,
+      statusText: 'OK',
+      headers: {},
+      data: { status: true },
+    });
+
+    await serviceWithoutAppId.testGet('/verification/test');
+
+    expect(serviceHttpClient.request).toHaveBeenCalledWith(
+      {
+        method: 'GET',
+        url: 'https://api.prembly.com/verification/test',
+        headers: {
+          'x-api-key': 'test-api-key',
+          'Content-Type': 'application/json',
+        },
+        timeout: undefined,
+      },
+      {
+        retries: 3,
+        retryDelay: 1000,
+        maxRetryDelay: 10000,
+      },
     );
   });
 });

@@ -304,7 +304,6 @@ function renderSpec(fileImportPath, className, methods) {
   lines.push('  beforeEach(() => {');
   lines.push(`    service = new ${className}({`);
   lines.push("      apiKey: 'test-api-key',");
-  lines.push("      appId: 'test-app-id',");
   lines.push("      baseUrl: 'https://api.prembly.com',");
   lines.push('    });');
   lines.push('  });');
