@@ -6,7 +6,6 @@ describe('CoteDivoireDataVerificationService', () => {
   beforeEach(() => {
     service = new CoteDivoireDataVerificationService({
       apiKey: 'test-api-key',
-      appId: 'test-app-id',
       baseUrl: 'https://api.prembly.com',
     });
   });

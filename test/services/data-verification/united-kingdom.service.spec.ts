@@ -6,7 +6,6 @@ describe('UnitedKingdomDataVerificationService', () => {
   beforeEach(() => {
     service = new UnitedKingdomDataVerificationService({
       apiKey: 'test-api-key',
-      appId: 'test-app-id',
       baseUrl: 'https://api.prembly.com',
     });
   });

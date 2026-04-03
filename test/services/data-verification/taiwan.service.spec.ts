@@ -6,7 +6,6 @@ describe('TaiwanDataVerificationService', () => {
   beforeEach(() => {
     service = new TaiwanDataVerificationService({
       apiKey: 'test-api-key',
-      appId: 'test-app-id',
       baseUrl: 'https://api.prembly.com',
     });
   });
