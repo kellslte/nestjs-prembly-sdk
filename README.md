@@ -1,6 +1,6 @@
 # @scwar/nestjs-prembly-sdk
 
-A comprehensive NestJS module for integrating with the Prembly API. This package mirrors the service-oriented structure of `@scwar/nestjs-paystack`, with a shared HTTP core, typed Nest module setup, grouped domain services, and country-specific data-verification services.
+A comprehensive NestJS module for integrating with the Prembly API. This package has a shared HTTP core, typed Nest module setup, grouped domain services, and country-specific data-verification services.
 
 ## Features
 
