@@ -1,0 +1,53 @@
+import { PremblyBaseResponse, PremblyRequestPayload } from '../common.interface';
+
+export type KenyaDataVerificationServiceAlienIdRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceAlienIdResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceBankAccountRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceBankAccountResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceCreditReferenceBureauAdvanceRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceCreditReferenceBureauAdvanceResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceCreditReferenceBureauBusinessRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceCreditReferenceBureauBusinessResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceCreditReferenceBureauRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceCreditReferenceBureauResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceDriversLicenseRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceDriversLicenseResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceKenyaBusinessVerificationRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceKenyaBusinessVerificationResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceMPesaStatementAnalysisRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceMPesaStatementAnalysisResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceNationalIdAdvanceRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceNationalIdAdvanceResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceNationalPassportRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceNationalPassportResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServicePhoneNumberAdvanceRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServicePhoneNumberAdvanceResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServicePhoneNumberBasicRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServicePhoneNumberBasicResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServicePinCheckerRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServicePinCheckerResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServicePsvLicenseRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServicePsvLicenseResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceSerialNumberRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceSerialNumberResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceTccCheckerRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceTccCheckerResponse = PremblyBaseResponse;
+
+export type KenyaDataVerificationServiceWhtCheckerRequest = PremblyRequestPayload;
+export type KenyaDataVerificationServiceWhtCheckerResponse = PremblyBaseResponse;
+

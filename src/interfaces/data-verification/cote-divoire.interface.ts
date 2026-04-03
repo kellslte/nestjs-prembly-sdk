@@ -1,0 +1,11 @@
+import { PremblyBaseResponse, PremblyRequestPayload } from '../common.interface';
+
+export type CoteDivoireDataVerificationServiceCompanySearchBasicRequest = PremblyRequestPayload;
+export type CoteDivoireDataVerificationServiceCompanySearchBasicResponse = PremblyBaseResponse;
+
+export type CoteDivoireDataVerificationServiceNationalIdentityNumberRequest = PremblyRequestPayload;
+export type CoteDivoireDataVerificationServiceNationalIdentityNumberResponse = PremblyBaseResponse;
+
+export type CoteDivoireDataVerificationServiceResidentIdentityNumberRequest = PremblyRequestPayload;
+export type CoteDivoireDataVerificationServiceResidentIdentityNumberResponse = PremblyBaseResponse;
+

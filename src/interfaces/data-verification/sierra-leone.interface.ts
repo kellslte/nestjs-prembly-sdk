@@ -1,0 +1,11 @@
+import { PremblyBaseResponse, PremblyRequestPayload } from '../common.interface';
+
+export type SierraLeoneDataVerificationServiceDriversLicenseRequest = PremblyRequestPayload;
+export type SierraLeoneDataVerificationServiceDriversLicenseResponse = PremblyBaseResponse;
+
+export type SierraLeoneDataVerificationServiceNationalIdRequest = PremblyRequestPayload;
+export type SierraLeoneDataVerificationServiceNationalIdResponse = PremblyBaseResponse;
+
+export type SierraLeoneDataVerificationServiceWaecVerificationRequest = PremblyRequestPayload;
+export type SierraLeoneDataVerificationServiceWaecVerificationResponse = PremblyBaseResponse;
+

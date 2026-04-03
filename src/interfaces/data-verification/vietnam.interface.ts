@@ -1,0 +1,14 @@
+import { PremblyBaseResponse, PremblyRequestPayload } from '../common.interface';
+
+export type VietnamDataVerificationServiceBusinessSearchAdvanceRequest = PremblyRequestPayload;
+export type VietnamDataVerificationServiceBusinessSearchAdvanceResponse = PremblyBaseResponse;
+
+export type VietnamDataVerificationServiceBusinessSearchRequest = PremblyRequestPayload;
+export type VietnamDataVerificationServiceBusinessSearchResponse = PremblyBaseResponse;
+
+export type VietnamDataVerificationServiceCompanySearchAdvanceRequest = PremblyRequestPayload;
+export type VietnamDataVerificationServiceCompanySearchAdvanceResponse = PremblyBaseResponse;
+
+export type VietnamDataVerificationServiceGetCompanyNumberVietnamRequest = PremblyRequestPayload;
+export type VietnamDataVerificationServiceGetCompanyNumberVietnamResponse = PremblyBaseResponse;
+

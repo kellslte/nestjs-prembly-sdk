@@ -1,0 +1,26 @@
+import { PremblyBaseResponse, PremblyRequestPayload } from '../common.interface';
+
+export type GhanaDataVerificationServiceDriversLicenseRequest = PremblyRequestPayload;
+export type GhanaDataVerificationServiceDriversLicenseResponse = PremblyBaseResponse;
+
+export type GhanaDataVerificationServiceMeterNumberVerificationRequest = PremblyRequestPayload;
+export type GhanaDataVerificationServiceMeterNumberVerificationResponse = PremblyBaseResponse;
+
+export type GhanaDataVerificationServiceMeterPaymentHistoryRequest = PremblyRequestPayload;
+export type GhanaDataVerificationServiceMeterPaymentHistoryResponse = PremblyBaseResponse;
+
+export type GhanaDataVerificationServiceNationalPassportRequest = PremblyRequestPayload;
+export type GhanaDataVerificationServiceNationalPassportResponse = PremblyBaseResponse;
+
+export type GhanaDataVerificationServicePhoneNumberBasicRequest = PremblyRequestPayload;
+export type GhanaDataVerificationServicePhoneNumberBasicResponse = PremblyBaseResponse;
+
+export type GhanaDataVerificationServiceTaxIdentificationNumberRequest = PremblyRequestPayload;
+export type GhanaDataVerificationServiceTaxIdentificationNumberResponse = PremblyBaseResponse;
+
+export type GhanaDataVerificationServiceWaecVerificationRequest = PremblyRequestPayload;
+export type GhanaDataVerificationServiceWaecVerificationResponse = PremblyBaseResponse;
+
+export type GhanaDataVerificationServiceBusinessPlusUboRequest = PremblyRequestPayload;
+export type GhanaDataVerificationServiceBusinessPlusUboResponse = PremblyBaseResponse;
+

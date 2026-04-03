@@ -1,0 +1,1166 @@
+[
+  {
+    "slug": "get-wallet-balance-1",
+    "title": "Get Wallet Balance",
+    "method": "get",
+    "path": "/api/v1/wallet"
+  },
+  {
+    "slug": "get-verification-status-1",
+    "title": "Verification Status Request",
+    "method": "get",
+    "path": "/verification/{id}/status"
+  },
+  {
+    "slug": "vincar-chasis",
+    "title": "VIN/CAR CHASIS",
+    "method": "post",
+    "path": "/verification/vehicle/vin"
+  },
+  {
+    "slug": "sdk-session-retrieval",
+    "title": "SDK Session Retrieval",
+    "method": "get",
+    "path": "/api/v1/checker-widget/sdk/sessions/"
+  },
+  {
+    "slug": "company-search-by-person",
+    "title": "Company Search By Person",
+    "method": "post",
+    "path": "/verification/global/company/search_with_string"
+  },
+  {
+    "slug": "company-search-with-registration-number-1",
+    "title": "Company Search With Registration Number",
+    "method": "post",
+    "path": "/verification/global/company"
+  },
+  {
+    "slug": "pep-and-sanction",
+    "title": "PEP and Sanction",
+    "method": "post",
+    "path": "/api/v1/verification/aml-screening/"
+  },
+  {
+    "slug": "tax-identification-number",
+    "title": "Tax Identification Number Check",
+    "method": "post",
+    "path": "/verification/global/tin-check"
+  },
+  {
+    "slug": "geo-location",
+    "title": "Geo-location",
+    "method": "post",
+    "path": "/verification/address/geolocation/verification"
+  },
+  {
+    "slug": "document-verification-47",
+    "title": "Document Verification",
+    "method": "post",
+    "path": "/verification/document"
+  },
+  {
+    "slug": "document-verification-with-face",
+    "title": "Document Verification with face",
+    "method": "post",
+    "path": "/verification/document_w_face"
+  },
+  {
+    "slug": "nuit",
+    "title": "NUIT",
+    "method": "post",
+    "path": "/verification/global/nuit-check"
+  },
+  {
+    "slug": "age-and-gender-1",
+    "title": "Age and Gender",
+    "method": "post",
+    "path": "/verification/biometrics/face/age_and_gender"
+  },
+  {
+    "slug": "face-comparison",
+    "title": "Face Comparison",
+    "method": "post",
+    "path": "/verification/biometrics/face/comparison"
+  },
+  {
+    "slug": "face-liveliness-check",
+    "title": "Face Liveliness Check",
+    "method": "post",
+    "path": "/verification/biometrics/face/liveliness_check"
+  },
+  {
+    "slug": "create-candidate-request",
+    "title": "Create Candidate Request",
+    "method": "post",
+    "path": "/api/v1/api/bgc/requests/candidates/"
+  },
+  {
+    "slug": "list-candidate-requests",
+    "title": "List Candidate Requests",
+    "method": "get",
+    "path": "/api/v1/api/bgc/requests/candidates/"
+  },
+  {
+    "slug": "get-candidate-request-detail",
+    "title": "Get Candidate Request Detail",
+    "method": "get",
+    "path": "/requests/candidates/{reference}/"
+  },
+  {
+    "slug": "reinitiate-candidate-request",
+    "title": "Reinitiate Candidate Request",
+    "method": "post",
+    "path": "/candidates/{reference}/reinitiate/"
+  },
+  {
+    "slug": "get-system-package-detail",
+    "title": "List System Package",
+    "method": "get",
+    "path": "/api/v1/api/bgc/system-packages/"
+  },
+  {
+    "slug": "list-system-package",
+    "title": "Get System Package Detail",
+    "method": "get",
+    "path": "/api/v1/api/bgc/system-packages/{package_id}"
+  },
+  {
+    "slug": "list-custom-packages",
+    "title": "List Custom Packages",
+    "method": "get",
+    "path": "/api/v1/api/bgc/packages/"
+  },
+  {
+    "slug": "create-custom-package",
+    "title": "Create Custom Package",
+    "method": "post",
+    "path": "/api/v1/api/bgc/packages/"
+  },
+  {
+    "slug": "get-custom-package-detail",
+    "title": "Get Custom Package Detail",
+    "method": "get",
+    "path": "/api/v1/api/bgc/packages/{package_id}"
+  },
+  {
+    "slug": "update-custom-package",
+    "title": "Update Custom Package",
+    "method": "put",
+    "path": "/api/v1/api/bgc/packages/{package_id}/"
+  },
+  {
+    "slug": "delete-custom-package",
+    "title": "Delete Custom Package",
+    "method": "delete",
+    "path": "/api/v1/api/bgc/packages/{package_id}/"
+  },
+  {
+    "slug": "list-countries",
+    "title": "List Countries",
+    "method": "get",
+    "path": "/api/v1/api/bgc/countries/"
+  },
+  {
+    "slug": "list-check-types-by-country",
+    "title": "List Check Types by Country",
+    "method": "get",
+    "path": "/api/v1/api/bgc/country/check-types/?country_code"
+  },
+  {
+    "slug": "list-all-check-types",
+    "title": "List all Check Types",
+    "method": "get",
+    "path": "/api/v1/api/bgc/check-types/"
+  },
+  {
+    "slug": "phone-number-check-copy-8",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "canada-1",
+    "title": "Company Search - Basic",
+    "method": "post",
+    "path": "/verification/canada/company-search"
+  },
+  {
+    "slug": "business-search-basic",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "business-search",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-advance"
+  },
+  {
+    "slug": "company-search-lite-copy-1",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "china-government-id-verification",
+    "title": "China Government ID Verification",
+    "method": "post",
+    "path": "/verification/asia/kyc/china/verify-govt-id/basic"
+  },
+  {
+    "slug": "china-passport-verification",
+    "title": "China passport verification",
+    "method": "post",
+    "path": "/verification/asia/kyc/china/verify-passport/basic"
+  },
+  {
+    "slug": "get-company-number-china",
+    "title": "Get Company Number - China",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "china-phone-number-verification",
+    "title": "Phone Number Basic",
+    "method": "post",
+    "path": "/verification/asia/kyc/china/verify-phone/basic"
+  },
+  {
+    "slug": "company-search-1",
+    "title": "Company Search Basic",
+    "method": "post",
+    "path": "/verification/ivory-coast/company-search"
+  },
+  {
+    "slug": "national-identity-number",
+    "title": "National Identity Number",
+    "method": "post",
+    "path": "/verification/ivory-coast/id-verification"
+  },
+  {
+    "slug": "resident-identity-number",
+    "title": "Resident Identity Number",
+    "method": "post",
+    "path": "/verification/ivory-coast/resident-card-verification"
+  },
+  {
+    "slug": "phone-number-check-copy-3",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "company-search-basic-3",
+    "title": "Company Search - Basic",
+    "method": "post",
+    "path": "/verification/czech/business-check"
+  },
+  {
+    "slug": "waec-verification-copy-7",
+    "title": "WAEC Verification",
+    "method": "post",
+    "path": "/verification/waec"
+  },
+  {
+    "slug": "drivers-license-4",
+    "title": "Drivers License",
+    "method": "post",
+    "path": "/verification/gh/drivers_license"
+  },
+  {
+    "slug": "meter-number",
+    "title": "Meter Number Verification",
+    "method": "post",
+    "path": "/verification/gh/meter-verification"
+  },
+  {
+    "slug": "meter-payment-history",
+    "title": "Meter Payment History",
+    "method": "post",
+    "path": "/verification/gh/meter-verification"
+  },
+  {
+    "slug": "post_identitypass-verification-gh-passport",
+    "title": "National Passport",
+    "method": "post",
+    "path": "/identitypass/verification/gh/voters"
+  },
+  {
+    "slug": "phone-number-basic",
+    "title": "Phone Number Basic",
+    "method": "post",
+    "path": "/verification/legacy/ghana/phone"
+  },
+  {
+    "slug": "tax-identification-number-1",
+    "title": "Tax Identification Number",
+    "method": "post",
+    "path": "/verification/gh_tin/"
+  },
+  {
+    "slug": "waec-verification-copy-5",
+    "title": "WAEC Verification",
+    "method": "post",
+    "path": "/verification/waec"
+  },
+  {
+    "slug": "business-ubo",
+    "title": "Business +UBO",
+    "method": "post",
+    "path": "/verification/legacy/ghana/business"
+  },
+  {
+    "slug": "phone-number-check-copy-5",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "basic-company-search-2",
+    "title": "Basic Company Search",
+    "method": "post",
+    "path": "/greece/busness-check"
+  },
+  {
+    "slug": "business-search-basic-copy-1",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "business-search-copy-copy",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search/advance"
+  },
+  {
+    "slug": "company-search-lite-copy-11",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "get-company-number-china-copy",
+    "title": "Get Company Number - Hong Kong",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "business-search-basic-copy-5",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "business-search-advance-copy-16",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-advance"
+  },
+  {
+    "slug": "company-search-lite-copy-15",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "get-company-number-korea-copy",
+    "title": "Get Company Number - India",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "phone-number-check-copy-6",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "phone-number-search-1",
+    "title": "Phone Number Basic",
+    "method": "post",
+    "path": "/verification/indonesia/phone-verification"
+  },
+  {
+    "slug": "business-search-basic-copy-4",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "business-search-advance-copy-12",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-advance"
+  },
+  {
+    "slug": "company-search-lite-copy-13",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "get-company-number-taiwan-copy",
+    "title": "Get Company Number - Japan",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "alien-id",
+    "title": "Alien ID",
+    "method": "post",
+    "path": "/verification/ke/alien_id"
+  },
+  {
+    "slug": "bank-account",
+    "title": "Bank Account",
+    "method": "post",
+    "path": "/identitypass/verification/bank_account_kenya"
+  },
+  {
+    "slug": "credit-reference-bureau-advance",
+    "title": "Credit Reference Bureau Advance",
+    "method": "post",
+    "path": "/verification/ke/crb/advance"
+  },
+  {
+    "slug": "credit-reference-bureau-business",
+    "title": "Credit Reference Bureau- Business",
+    "method": "post",
+    "path": "/verification/ke/crb/business"
+  },
+  {
+    "slug": "credit-reference-bureau",
+    "title": "Credit Reference Bureau",
+    "method": "post",
+    "path": "/verification/ke/crb"
+  },
+  {
+    "slug": "drivers-license-3",
+    "title": "Drivers License",
+    "method": "post",
+    "path": "/verification/ke/drivers_license"
+  },
+  {
+    "slug": "business-registration-service",
+    "title": "Kenya Business Verification",
+    "method": "post",
+    "path": "/verification/ke/brs/search/advanced"
+  },
+  {
+    "slug": "m-pesa-statement-analysis",
+    "title": "M-Pesa Statement Analysis",
+    "method": "post",
+    "path": "/verification/ke/mpesa/statement_analysis"
+  },
+  {
+    "slug": "national-id-advance",
+    "title": "National ID Advance",
+    "method": "post",
+    "path": "/verification/ke/national_id"
+  },
+  {
+    "slug": "national-passport",
+    "title": "National Passport",
+    "method": "post",
+    "path": "/verification/ke/passport"
+  },
+  {
+    "slug": "phone-number-check-copy-1",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "phone-number-basic-3",
+    "title": "Phone Number Basic",
+    "method": "post",
+    "path": "/verification/ke/phone-number-verification"
+  },
+  {
+    "slug": "pin-checker",
+    "title": "Pin Checker",
+    "method": "post",
+    "path": "/verification/ke/tax/pin"
+  },
+  {
+    "slug": "psv-license-1",
+    "title": "PSV License",
+    "method": "post",
+    "path": "/verification/ke/psv_license"
+  },
+  {
+    "slug": "serial-number",
+    "title": "Serial Number",
+    "method": "post",
+    "path": "/verification/ke/serial"
+  },
+  {
+    "slug": "tcc-checker",
+    "title": "TCC Checker",
+    "method": "post",
+    "path": "/verification/ke/tax/tcc"
+  },
+  {
+    "slug": "wht-checker",
+    "title": "WHT Checker",
+    "method": "post",
+    "path": "/verification/ke/wht"
+  },
+  {
+    "slug": "business-search-basic-copy-3",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "business-search-advance-copy-13",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-advance"
+  },
+  {
+    "slug": "company-search-lite-copy-14",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "get-company-number-japan-copy",
+    "title": "Get Company Number - Korea",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "waec-verification-copy-6",
+    "title": "WAEC Verification",
+    "method": "post",
+    "path": "/verification/waec"
+  },
+  {
+    "slug": "tin-tax-identification-number",
+    "title": "TIN (Tax Identification Number)",
+    "method": "post",
+    "path": "/verification/mw_tin"
+  },
+  {
+    "slug": "phone-number-1",
+    "title": "Phone Number Verification",
+    "method": "post",
+    "path": "/verification/mw_phone"
+  },
+  {
+    "slug": "business-verification-ubo",
+    "title": "Business Verification +UBO",
+    "method": "post",
+    "path": "/verification/business/ubo"
+  },
+  {
+    "slug": "credit-bureau-copy-2",
+    "title": "Credit Bureau Basic",
+    "method": "post",
+    "path": "/verification/asia/kyc/credit-bureau/basic"
+  },
+  {
+    "slug": "phone-number-check-copy-7",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "basic-company-search-1",
+    "title": "Basic Company Search",
+    "method": "post",
+    "path": "/verification/mexico/busness-check"
+  },
+  {
+    "slug": "phone-number-status-check",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "business-search-copy-1",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "business-search-advance-copy-14",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-advance"
+  },
+  {
+    "slug": "company-search-lite-copy-16",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "get-company-number-india-copy",
+    "title": "Get Company Number - New Zealand",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "account-with-name-comparism",
+    "title": "Account with Name Comparism",
+    "method": "post",
+    "path": "/verification/bank_account/comparism"
+  },
+  {
+    "slug": "address-verification-1",
+    "title": "Address Verification",
+    "method": "post",
+    "path": "/verification/address"
+  },
+  {
+    "slug": "address-verification-status",
+    "title": "Address Verification Status",
+    "method": "post",
+    "path": "/verification/address/status"
+  },
+  {
+    "slug": "advance-cac-1",
+    "title": "Advance CAC",
+    "method": "post",
+    "path": "/verification/cac/advance"
+  },
+  {
+    "slug": "advance-drivers-license",
+    "title": "Advance Drivers License",
+    "method": "post",
+    "path": "/verification/drivers_license/advance"
+  },
+  {
+    "slug": "advance-phone-number-1",
+    "title": "Advance Phone Number",
+    "method": "post",
+    "path": "/verification/phone_number/advance"
+  },
+  {
+    "slug": "account-number-10-1",
+    "title": "Bank Account (Basic)",
+    "method": "post",
+    "path": "/verification/bank_account/basic"
+  },
+  {
+    "slug": "basic-cac-1",
+    "title": "Basic CAC",
+    "method": "post",
+    "path": "/verification/cac"
+  },
+  {
+    "slug": "basic-phone-number-1",
+    "title": "Basic Phone Number",
+    "method": "post",
+    "path": "/verification/phone_number"
+  },
+  {
+    "slug": "address-verification-copy-1",
+    "title": "Business Address Verification",
+    "method": "post",
+    "path": "/identitypass/verification/address"
+  },
+  {
+    "slug": "bvn-advance",
+    "title": "BVN Advance",
+    "method": "post",
+    "path": "/verification/bvn"
+  },
+  {
+    "slug": "bvn-basic",
+    "title": "BVN Basic",
+    "method": "post",
+    "path": "/verification/bvn_validation"
+  },
+  {
+    "slug": "bvn-face-validation",
+    "title": "BVN + (Face Validation)",
+    "method": "post",
+    "path": "/verification/bvn_w_face"
+  },
+  {
+    "slug": "credit-bureau-commercialbusiness-basic",
+    "title": "Credit Bureau Commercial(Business)-Basic",
+    "method": "post",
+    "path": "/verification/credit_bureau/commercial/basic"
+  },
+  {
+    "slug": "credit-bureau-consumerindividual-basic",
+    "title": "Credit Bureau Consumer(Individual)-Basic",
+    "method": "post",
+    "path": "/verification/credit_bureau/consumer/basic"
+  },
+  {
+    "slug": "credit-bureau-commercialbusiness-advance",
+    "title": "Credit Bureau Commercial(Business)-Advance",
+    "method": "post",
+    "path": "/verification/credit_bureau/commercial/advance"
+  },
+  {
+    "slug": "credit-bureau-consumer",
+    "title": "Credit Bureau Consumer(Individual) Advance",
+    "method": "post",
+    "path": "/verification/credit_bureau/consumer/advance"
+  },
+  {
+    "slug": "drivers-license-face-validation",
+    "title": "Drivers License (+Face Validation)",
+    "method": "post",
+    "path": "/verification/drivers_license/face"
+  },
+  {
+    "slug": "drivers-license-image",
+    "title": "Drivers License (Image)",
+    "method": "post",
+    "path": "/verification/drivers_license/image"
+  },
+  {
+    "slug": "drivers-license-v2-1",
+    "title": "Drivers License V2",
+    "method": "post",
+    "path": "/verification/drivers_license/advance/v2"
+  },
+  {
+    "slug": "get-bvn-with-phone-number-1",
+    "title": "Get BVN with Phone Number",
+    "method": "post",
+    "path": "/verification/bvn_with_phone_advance"
+  },
+  {
+    "slug": "get-tin-with-phone-number",
+    "title": "Get TIN with Phone Number",
+    "method": "post",
+    "path": "/verification/get-tin-with-phone"
+  },
+  {
+    "slug": "financial-accounts-advance-1",
+    "title": "Financial Accounts Advance",
+    "method": "post",
+    "path": "/verification/list/financial_accounts/advance"
+  },
+  {
+    "slug": "insurance-policy-1",
+    "title": "Insurance Policy",
+    "method": "post",
+    "path": "/verification/insurance_policy"
+  },
+  {
+    "slug": "international-passport",
+    "title": "International Passport",
+    "method": "post",
+    "path": "/verification/national_passport"
+  },
+  {
+    "slug": "international-passport-face-validation",
+    "title": "International Passport (+ Face Validation)",
+    "method": "post",
+    "path": "/verification/national_passport_with_face"
+  },
+  {
+    "slug": "post_identitypass-verification-national-passport-image",
+    "title": "International Passport (Image)",
+    "method": "post",
+    "path": "/identitypass/verification/stamp_duty"
+  },
+  {
+    "slug": "get_identitypass-verification-bank-account-bank-code",
+    "title": "List Bank Code",
+    "method": "get",
+    "path": "/identitypass/verification/stamp_duty"
+  },
+  {
+    "slug": "national-id-basic",
+    "title": "NIN Basic",
+    "method": "post",
+    "path": "/verification/vnin-basic"
+  },
+  {
+    "slug": "nin-basic",
+    "title": "NIN (NinAuth Level 2)",
+    "method": "post",
+    "path": "/verification/nin-level-2"
+  },
+  {
+    "slug": "nin-with-face",
+    "title": "NIN With Face",
+    "method": "post",
+    "path": "/verification/nin_w_face"
+  },
+  {
+    "slug": "nin-and-virtual-nin",
+    "title": "NIN Advance",
+    "method": "post",
+    "path": "/verification/vnin"
+  },
+  {
+    "slug": "passport-version-2",
+    "title": "Passport Version 2",
+    "method": "post",
+    "path": "/verification/national_passport_v2"
+  },
+  {
+    "slug": "plate-number-verification",
+    "title": "Plate Number Verification",
+    "method": "post",
+    "path": "/verification/vehicle"
+  },
+  {
+    "slug": "stamp-duty",
+    "title": "Stamp Duty",
+    "method": "post",
+    "path": "/verification/stamp_duty"
+  },
+  {
+    "slug": "tax-identification-number-tin",
+    "title": "Tax Identification Number (TIN)",
+    "method": "post",
+    "path": "/verification/tin"
+  },
+  {
+    "slug": "voters-identification-number",
+    "title": "Voters Card",
+    "method": "post",
+    "path": "/verification/voters_card"
+  },
+  {
+    "slug": "waec-verification-1",
+    "title": "WAEC Verification",
+    "method": "post",
+    "path": "/verification/waec"
+  },
+  {
+    "slug": "scuml",
+    "title": "SCUML",
+    "method": "post",
+    "path": "/verification/scuml"
+  },
+  {
+    "slug": "tcc",
+    "title": "TCC Checker",
+    "method": "post",
+    "path": "/verification/tcc"
+  },
+  {
+    "slug": "metre-number",
+    "title": "Metre Number",
+    "method": "post",
+    "path": "/verification/ng/meter/verify"
+  },
+  {
+    "slug": "nysc-1",
+    "title": "NYSC",
+    "method": "post",
+    "path": "/verification/nysc"
+  },
+  {
+    "slug": "phone-number-check-copy-2",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "tin",
+    "title": "TIN",
+    "method": "post",
+    "path": "/verification/rw_tin/"
+  },
+  {
+    "slug": "phone-number-verification",
+    "title": "Phone Number Verification",
+    "method": "post",
+    "path": "/verification/rw_phone"
+  },
+  {
+    "slug": "business-ubo-verification",
+    "title": "Business +UBO verification",
+    "method": "post",
+    "path": "/verification/rw_business"
+  },
+  {
+    "slug": "post_identitypass-verification-sl-drivers-license",
+    "title": "Drivers License",
+    "method": "post",
+    "path": "/verification/sierraleone/drivers-license"
+  },
+  {
+    "slug": "national-id-3",
+    "title": "National ID",
+    "method": "post",
+    "path": "/verification/sl/national-id-verification"
+  },
+  {
+    "slug": "waec-verification-copy-4",
+    "title": "WAEC Verification",
+    "method": "post",
+    "path": "/verification/waec"
+  },
+  {
+    "slug": "business-search-basic-copy",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "business-search-copy",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-advance"
+  },
+  {
+    "slug": "credit-bureau-2",
+    "title": "Credit Bureau Basic",
+    "method": "post",
+    "path": "/verification/asia/kyc/credit-bureau"
+  },
+  {
+    "slug": "company-search-lite",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "get-company-number-singapore",
+    "title": "Get Company Number - Singapore",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "sim-verification",
+    "title": "Phone Number Basic",
+    "method": "post",
+    "path": "/verification/sim/sim-verification"
+  },
+  {
+    "slug": "phone-number-check-copy-9",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "business-search-basic-copy-2",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "business-search-advance-copy-11",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-advance"
+  },
+  {
+    "slug": "company-search-lite-copy-12",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "get-company-number-hong-kong-copy",
+    "title": "Get Company Number - Taiwan",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "business-check-1",
+    "title": "Business Check",
+    "method": "post",
+    "path": "/verification/tz/business-check"
+  },
+  {
+    "slug": "phone-number-basic-1",
+    "title": "Phone Number - Basic",
+    "method": "post",
+    "path": "/verification/tz/phone-number-check"
+  },
+  {
+    "slug": "identity-check",
+    "title": "Tax Identification Number Verification",
+    "method": "post",
+    "path": "/verification/tz/id"
+  },
+  {
+    "slug": "voters-identification-number-verification-1",
+    "title": "Voters Identification Number Verification",
+    "method": "post",
+    "path": "/verification/tz/id"
+  },
+  {
+    "slug": "zanzibar-residence-id-1",
+    "title": "Zanzibar Residence ID",
+    "method": "post",
+    "path": "/verification/tz/id"
+  },
+  {
+    "slug": "business-search-basic-copy-copy-1",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "business-search-advance-copy-17",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-advance"
+  },
+  {
+    "slug": "company-search-lite-copy-18",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "get-company-number-vietnam-copy",
+    "title": "Get Company Number - Thailand",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "sim-verification-copy-1",
+    "title": "Phone Number Basic",
+    "method": "post",
+    "path": "/verification/sim/sim-verification"
+  },
+  {
+    "slug": "company-search-basic-1",
+    "title": "Company Search Basic",
+    "method": "post",
+    "path": "/verification/uk/business-check"
+  },
+  {
+    "slug": "phone-number-check-copy",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "phone-number-intelligence-1",
+    "title": "Phone Number Basic",
+    "method": "post",
+    "path": "/verification/uk/phone-intelligence-check"
+  },
+  {
+    "slug": "phone-number-check-copy-4",
+    "title": "Phone Number Advance",
+    "method": "post",
+    "path": "/verification/global/phone-status-check"
+  },
+  {
+    "slug": "business-search-advance-copy-15",
+    "title": "Business Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-advance"
+  },
+  {
+    "slug": "business-search-basic-copy-copy",
+    "title": "Business Search",
+    "method": "post",
+    "path": "/verification/asia/kyb/search"
+  },
+  {
+    "slug": "company-search-lite-copy-17",
+    "title": "Company Search Advance",
+    "method": "post",
+    "path": "/verification/asia/kyb/search-lite"
+  },
+  {
+    "slug": "get-company-number-new-zealand-copy",
+    "title": "Get Company Number - Vietnam",
+    "method": "post",
+    "path": "/verification/asia/kyb/get-company-number"
+  },
+  {
+    "slug": "national-id-1",
+    "title": "National ID",
+    "method": "post",
+    "path": "/verification/gb/id"
+  },
+  {
+    "slug": "phone-verification",
+    "title": "Phone Verification",
+    "method": "post",
+    "path": "/legacy/zambia/phone"
+  },
+  {
+    "slug": "tin-verification-1",
+    "title": "TIN Verification",
+    "method": "post",
+    "path": "/zm_tin/"
+  },
+  {
+    "slug": "tin-verification",
+    "title": "TIN Verification",
+    "method": "post",
+    "path": "/verification/api/zw_tin/"
+  },
+  {
+    "slug": "phone-number-verification-1",
+    "title": "Phone Number Verification",
+    "method": "post",
+    "path": "/verification/api/zw_phone/"
+  },
+  {
+    "slug": "business-verification-ubo-1",
+    "title": "Business Verification +UBO",
+    "method": "post",
+    "path": "/verification/api/zw_business/"
+  },
+  {
+    "slug": "tm-transaction-monitoring",
+    "title": "TM (Transaction Monitoring)",
+    "method": "post",
+    "path": "/api/v1/fraud/transaction-monitoring/screen-transaction"
+  },
+  {
+    "slug": "face-scan",
+    "title": "Face Scan",
+    "method": "post",
+    "path": "/api/v1/fraud/face-scan/"
+  },
+  {
+    "slug": "id-scan",
+    "title": "ID Scan",
+    "method": "post",
+    "path": "/api/v1/fraud/id-scan/"
+  },
+  {
+    "slug": "submit-fraud-report",
+    "title": "Submit Fraud Report",
+    "method": "post",
+    "path": "/api/v1/fraud/reports/submit/"
+  },
+  {
+    "slug": "get-fraud-report-detail",
+    "title": "Get Fraud Report Detail",
+    "method": "get",
+    "path": "/api/v1/fraud/reports/{report_id}/"
+  },
+  {
+    "slug": "list-fraud-reports",
+    "title": "List Fraud Reports",
+    "method": "get",
+    "path": "/api/v1/fraud/reports/"
+  },
+  {
+    "slug": "bulk-scan",
+    "title": "List Bulk Scan",
+    "method": "get",
+    "path": "/api/v1/fraud/bulk-scan/"
+  },
+  {
+    "slug": "check-status",
+    "title": "Get Bulk Fraud Scan Details",
+    "method": "get",
+    "path": "/api/v1/fraud/bulk-scan/{bulk_id}/"
+  },
+  {
+    "slug": "fraud-bulk-scan-upload",
+    "title": "Fraud Bulk Scan Upload",
+    "method": "get",
+    "path": "/api/v1/fraud/bulk-scan/upload/"
+  }
+]

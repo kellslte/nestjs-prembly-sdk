@@ -1,0 +1,11 @@
+import { PremblyBaseResponse, PremblyRequestPayload } from '../common.interface';
+
+export type MalawiDataVerificationServiceTinTaxIdentificationNumberRequest = PremblyRequestPayload;
+export type MalawiDataVerificationServiceTinTaxIdentificationNumberResponse = PremblyBaseResponse;
+
+export type MalawiDataVerificationServicePhoneNumberVerificationRequest = PremblyRequestPayload;
+export type MalawiDataVerificationServicePhoneNumberVerificationResponse = PremblyBaseResponse;
+
+export type MalawiDataVerificationServiceBusinessVerificationPlusUboRequest = PremblyRequestPayload;
+export type MalawiDataVerificationServiceBusinessVerificationPlusUboResponse = PremblyBaseResponse;
+

@@ -1,0 +1,23 @@
+import { PremblyBaseResponse, PremblyRequestPayload } from '../common.interface';
+
+export type ChinaDataVerificationServiceBusinessSearchRequest = PremblyRequestPayload;
+export type ChinaDataVerificationServiceBusinessSearchResponse = PremblyBaseResponse;
+
+export type ChinaDataVerificationServiceBusinessSearchAdvanceRequest = PremblyRequestPayload;
+export type ChinaDataVerificationServiceBusinessSearchAdvanceResponse = PremblyBaseResponse;
+
+export type ChinaDataVerificationServiceCompanySearchAdvanceRequest = PremblyRequestPayload;
+export type ChinaDataVerificationServiceCompanySearchAdvanceResponse = PremblyBaseResponse;
+
+export type ChinaDataVerificationServiceChinaGovernmentIdVerificationRequest = PremblyRequestPayload;
+export type ChinaDataVerificationServiceChinaGovernmentIdVerificationResponse = PremblyBaseResponse;
+
+export type ChinaDataVerificationServiceChinaPassportVerificationRequest = PremblyRequestPayload;
+export type ChinaDataVerificationServiceChinaPassportVerificationResponse = PremblyBaseResponse;
+
+export type ChinaDataVerificationServiceGetCompanyNumberChinaRequest = PremblyRequestPayload;
+export type ChinaDataVerificationServiceGetCompanyNumberChinaResponse = PremblyBaseResponse;
+
+export type ChinaDataVerificationServicePhoneNumberBasicRequest = PremblyRequestPayload;
+export type ChinaDataVerificationServicePhoneNumberBasicResponse = PremblyBaseResponse;
+

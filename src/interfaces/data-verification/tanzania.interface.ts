@@ -1,0 +1,17 @@
+import { PremblyBaseResponse, PremblyRequestPayload } from '../common.interface';
+
+export type TanzaniaDataVerificationServiceBusinessCheckRequest = PremblyRequestPayload;
+export type TanzaniaDataVerificationServiceBusinessCheckResponse = PremblyBaseResponse;
+
+export type TanzaniaDataVerificationServicePhoneNumberBasicRequest = PremblyRequestPayload;
+export type TanzaniaDataVerificationServicePhoneNumberBasicResponse = PremblyBaseResponse;
+
+export type TanzaniaDataVerificationServiceTaxIdentificationNumberVerificationRequest = PremblyRequestPayload;
+export type TanzaniaDataVerificationServiceTaxIdentificationNumberVerificationResponse = PremblyBaseResponse;
+
+export type TanzaniaDataVerificationServiceVotersIdentificationNumberVerificationRequest = PremblyRequestPayload;
+export type TanzaniaDataVerificationServiceVotersIdentificationNumberVerificationResponse = PremblyBaseResponse;
+
+export type TanzaniaDataVerificationServiceZanzibarResidenceIdRequest = PremblyRequestPayload;
+export type TanzaniaDataVerificationServiceZanzibarResidenceIdResponse = PremblyBaseResponse;
+

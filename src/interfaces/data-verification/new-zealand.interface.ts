@@ -1,0 +1,14 @@
+import { PremblyBaseResponse, PremblyRequestPayload } from '../common.interface';
+
+export type NewZealandDataVerificationServiceBusinessSearchRequest = PremblyRequestPayload;
+export type NewZealandDataVerificationServiceBusinessSearchResponse = PremblyBaseResponse;
+
+export type NewZealandDataVerificationServiceBusinessSearchAdvanceRequest = PremblyRequestPayload;
+export type NewZealandDataVerificationServiceBusinessSearchAdvanceResponse = PremblyBaseResponse;
+
+export type NewZealandDataVerificationServiceCompanySearchAdvanceRequest = PremblyRequestPayload;
+export type NewZealandDataVerificationServiceCompanySearchAdvanceResponse = PremblyBaseResponse;
+
+export type NewZealandDataVerificationServiceGetCompanyNumberNewZealandRequest = PremblyRequestPayload;
+export type NewZealandDataVerificationServiceGetCompanyNumberNewZealandResponse = PremblyBaseResponse;
+
